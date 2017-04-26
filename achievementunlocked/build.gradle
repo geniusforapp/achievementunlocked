@@ -1,0 +1,35 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+
+}
+
+apply plugin: 'com.github.dcendents.android-maven'
+apply plugin: 'com.novoda.bintray-release'
+publish {
+    userOrg = 'geniusapplications'
+    groupId = 'com.geniusforapp.fancydialog'
+    artifactId = 'FancyDialog'
+    publishVersion = '0.0.9'
+    desc = 'A customisable AlertDialog for Android.'
+    website = 'https://github.com/geniusforapp/fancyDialog'
+}
