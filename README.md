@@ -1,4 +1,7 @@
 # Achievement Unlocked
+
+<img src="https://raw.githubusercontent.com/geniusforapp/achievementunlocked/master/cover.png" width="1024" hight="500"/>
+
 <a href="https://github.com/DarkionAvey/AchievementUnlocked-library/blob/master/app/app-release.apk?raw=true">Download APK (for Android KitKat+)</a>
 
 
@@ -6,9 +9,9 @@
 <p>Animated pop-ups inspired by XBOX. </p>
 
 
-the original library is <a href="https://github.com/DarkionAvey/AchievementUnlocked-library">here</a>  
+The original library is <a href="https://github.com/DarkionAvey/AchievementUnlocked-library">here</a>  
 
-<img src="https://raw.githubusercontent.com/geniusforapp/achievementunlocked/master/cover.png" width="1024" hight="500"/>
+
 
 
 ## Add Library
