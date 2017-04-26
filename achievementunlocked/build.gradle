@@ -17,6 +17,12 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    lintOptions {
+        abortOnError false
+    }
+
+
 }
 
 dependencies {
@@ -27,9 +33,9 @@ apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'com.novoda.bintray-release'
 publish {
     userOrg = 'geniusapplications'
-    groupId = 'com.geniusforapp.fancydialog'
-    artifactId = 'FancyDialog'
-    publishVersion = '0.0.9'
-    desc = 'A customisable AlertDialog for Android.'
-    website = 'https://github.com/geniusforapp/fancyDialog'
+    groupId = 'com.geniusforapp.achievementunlocked'
+    artifactId = 'achievement'
+    publishVersion = '0.0.1'
+    desc = 'This app monitors status bar notifications and displays them as colorful animated pop-ups. You should grant the app the permission to read notifications first'
+    website = 'https://github.com/geniusforapp/achievementunlocked'
 }
