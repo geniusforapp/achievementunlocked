@@ -1,4 +1,4 @@
-# FancyDialog
+# Achievement Unlocked
 <a href="https://github.com/DarkionAvey/AchievementUnlocked-library/blob/master/app/app-release.apk?raw=true">Download APK (for Android KitKat+)</a>
 
 
@@ -8,7 +8,7 @@
 
 the original library is <a href="https://github.com/DarkionAvey/AchievementUnlocked-library">here</a>  
 
-<img src="/preview.gif" width="300" align="right" alt="AchievementUnlocked app demo" hspace="20">
+<img src="https://raw.githubusercontent.com/geniusforapp/achievementunlocked/master/cover.png" width="1024" hight="500"/>
 
 
 ## Add Library
@@ -76,7 +76,7 @@ tips will help the developer to program more library
 
 ### Pull requests are welcome!
 
-Feel free to contribute to FancyDialog.
+Feel free to contribute to AchievementUnlocked-library.
 
 If you've fixed a bug or have a feature you've added, just create a pull request. If you've found a bug, want a new feature, or have other questions, file an issue. I will try to answer as soon as possible.
 
